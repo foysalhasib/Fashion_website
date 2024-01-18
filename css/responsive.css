@@ -1,0 +1,879 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+/* ============================= navbar part srat  ===================================== */
+.navbar  img{
+    width: 130px;
+}
+
+.fa-solid.fa-bars {
+	color: black;
+}
+.navbar-toggler{
+    border: 0;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .navbar-nav {
+	column-gap: 65px;
+	text-align: center;
+	background: antiquewhite;
+	border-radius: 12px;
+}
+.navbar .navbar-nav{
+    padding: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+	font-size: 16px;	
+}
+.navbar .sign_button button {
+	padding: 6px 14px 6px;
+	margin-left: 0;	
+	font-size: 12px;
+}
+
+/* ============================= navbar part end  ===================================== */
+/* ============================= banner part start  =================================== */
+#banner_part .row .image img {
+	width: 100%;
+	border-radius: 20px;
+	margin-top: -21px;
+}
+
+/* ============================= banner part end  ===================================== */
+/* ============================= MH_part part start===================================== */
+#MH_part {
+	margin-top: 20px;
+	background: rgba(235, 217, 107, 1);
+	padding: 30px 0 30px;
+}
+#MH_part .row .image {
+	display: flex;
+	justify-content: center;
+}
+#MH_part .row .image img {
+	margin-top: 10px;
+}
+#MH_part .image.four {
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+
+/* ============================= MH_part part end===================================== */
+/* ============================= NEW ARRIVALS part start============================== */
+#new_arrivals .container {
+	padding-top: 0px;
+}
+#new_arrivals .container h1 {	
+	font-size: 26px;	
+	text-align: center;
+    margin-bottom: 26px;
+}
+#new_arrivals img {
+	width: 100%;
+	height: 400px;
+}
+#new_arrivals .container .main_slider {
+	margin-top: 20px;
+    margin: 0 auto;
+}
+
+#new_arrivals .container .main_slider .prevArrow {
+	background: rgb(50, 255, 252);
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	top: 41%;
+	left: 12px;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	z-index: 3;
+}
+
+#new_arrivals .container .main_slider .nextArrow {
+	background: rgb(50, 255, 252);
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	top: 41%;
+	right: -9px;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
+#new_arrivals .text h2 {	
+	font-size: 18px;
+	text-align: center;
+}
+#new_arrivals .text p {
+    margin-top: -18px;
+	font-size: 14px;
+    text-align: center;
+
+}
+
+.arrivals_banner {
+	margin-top: 40px;
+}
+
+
+/* ============================= NEW ARRIVALS part end=============================== */
+/* ============================= Young’s part start=================================== */
+#youngs_part {
+	padding-top: 60px;
+}
+
+#youngs_part .container h2 {
+	font-size: 22px;
+	text-align: center;
+}
+#youngs_part .container .main_slide {
+	margin-top: 20px;
+}
+#youngs_part .container .main_slide .prevArrow {
+	background: rgb(41, 104, 103);
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	top: 35%;
+	left: 12px;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	z-index: 3;
+}
+#youngs_part .container .main_slide .nextArrow {
+	background: rgb(41, 104, 103);
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	top: 35%;
+	right: -9px;
+	transform: translateY(-50%);
+	font-size: 20px;
+	z-index: 3;
+}
+
+#youngs_part .text p {
+    margin-top: -20px;
+	font-size: 16px;
+	text-align: center;	
+}
+
+/* ============================= Young’s part end======================================== */
+/* ============================= download part start===================================== */
+#download_part {
+	padding-top: 64px;
+}
+
+#download_part .row .left h2 {
+	width: auto;
+	font-size: 18px;	
+	text-align: center;
+}
+#download_part .row .left p {
+	margin-top: 8px;
+	width: auto;
+	font-family: Poppins;
+	font-size: 16px;
+    text-align: center;	
+}
+
+#download_part .row .left .icon {
+	margin-top: 16px;
+	text-align: center;
+}
+
+#download_part .row .col-lg-6:first-child {
+	order: 2;
+}
+#download_part .row .col-lg-6:last-child {
+	order: 1;
+}
+
+#download_part .row .right img {
+	width: 270px;
+	margin: 0 auto;
+}
+#download_part .row .left {
+	padding: 0;
+}
+
+
+/* ============================= download part end===================================== */
+/* ============================= contact part start==================================== */
+#contact_part .container .text {
+   padding: 0 ;
+   margin: 0 auto;
+}
+
+#contact_part {
+	padding: 50px 0;
+	
+}
+
+#contact_part .container .text h2 {	
+	width: auto;			
+	font-size: 17px;	
+	line-height: 31px;
+	
+}
+
+#contact_part .container .text p {
+	margin-top: 10px;	
+	font-size: 14px;	
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+
+#contact_part .container .text {
+	text-align: center;
+}
+#contact_part .container .text input {
+	margin: 0 auto;
+	width: auto;
+	font-size: 14px;
+	padding: 8px 14px;
+}
+#contact_part .container .text button {	
+    font-size: 18px;	
+	padding: 6px 22px 6px 22px;	
+}
+
+#contact_part .container .text .button {
+	margin: 10px;
+}
+
+/* ============================= contact part end==================================== */
+/* ============================= footer part start=================================== */
+footer .container {
+	padding: 66px 0 20px;
+}
+footer .container img {
+	margin: 0 auto;
+}
+
+footer .container .row p {
+	margin: 18px 0;
+	width: auto;	
+	font-size: 18px;
+    line-height: 25px;	
+	text-align: center;
+}
+footer .container .row .icon {
+    margin-top: 8px;
+	text-align: center;
+}
+footer .container .row .right {
+    margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    row-gap: 40px;
+}
+footer .container .row .right ul li a {
+	margin-top: 0px;
+	font-size: 18px;
+}
+
+/* ============================= footer part end===================================== */
+}
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* ============================= navbar part srat  ===================================== */
+    .navbar  img{
+        width: 130px;
+    }
+    
+    .fa-solid.fa-bars {
+        color: black;
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar .navbar-nav {
+        column-gap: 65px;
+        text-align: center;
+        background: rgb(178, 255, 111);
+        border-radius: 18px;
+    }
+    .navbar .navbar-nav{
+        padding: 20px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 18px;	
+    }
+    .navbar .sign_button button {
+        padding: 6px 14px 6px;
+        margin-left: 0;	
+        font-size: 14px;
+    }
+    
+    /* ============================= navbar part end  ===================================== */
+    /* ============================= banner part start  =================================== */
+    #banner_part .row .image img {
+        width: 100%;
+        border-radius: 20px;
+        margin-top: -21px;
+    }
+    
+    /* ============================= banner part end  ===================================== */
+    /* ============================= MH_part part start===================================== */
+    #MH_part {
+        margin-top: 20px;
+        background: rgba(235, 217, 107, 1);
+        padding: 30px ;
+    }
+    
+    #MH_part .row .image img {
+        margin-top: 10px;
+    }
+    #MH_part .image.four {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    
+    
+    /* ============================= MH_part part end===================================== */
+    /* ============================= NEW ARRIVALS part start============================== */
+    #new_arrivals .container {
+        padding-top: 0px;
+    }
+    #new_arrivals .container h1 {	
+        font-size: 28px;	
+        text-align: center;
+    }
+    #new_arrivals img {
+        width: 100%;
+        height: 400px;
+    }
+    #new_arrivals .container .main_slider {
+        margin-top: 30px;
+    }
+    
+    #new_arrivals .container .main_slider .prevArrow {
+        background: rgb(50, 255, 252);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 41%;
+        left: 12px;
+        transform: translate(-50%,-50%);
+        font-size: 22px;
+        z-index: 3;
+    }
+    
+    #new_arrivals .container .main_slider .nextArrow {
+        background: rgb(50, 255, 252);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 41%;
+        right: -9px;
+        transform: translateY(-50%);
+        font-size: 22px;
+    }
+    #new_arrivals .text h2 {	
+        font-size: 20px;
+        text-align: center;
+    }
+    #new_arrivals .text p {
+        margin-top: -18px;
+        font-size: 16px;
+        text-align: center;
+    
+    }
+    
+    .arrivals_banner {
+        margin-top: 40px;
+    }
+    
+    
+    /* ============================= NEW ARRIVALS part end=============================== */
+    /* ============================= Young’s part start=================================== */
+    #youngs_part {
+        padding-top: 60px;
+    }
+    
+    #youngs_part .container h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    #youngs_part .container .main_slide {
+        margin-top: 20px;
+    }
+    #youngs_part .container .main_slide .prevArrow {
+        background: rgb(41, 104, 103);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 35%;
+        left: 12px;
+        transform: translate(-50%,-50%);
+        font-size: 22px;
+        z-index: 3;
+    }
+    #youngs_part .container .main_slide .nextArrow {
+        background: rgb(41, 104, 103);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 35%;
+        right: -9px;
+        transform: translateY(-50%);
+        font-size: 22px;
+        z-index: 3;
+    }
+    
+    #youngs_part .text p {
+        margin-top: -20px;
+        font-size: 18px;
+        text-align: center;	
+    }
+    
+    /* ============================= Young’s part end======================================== */
+    /* ============================= download part start===================================== */
+    #download_part {
+        padding-top: 64px;
+    }
+    
+    #download_part .row .left h2 {
+        width: auto;
+        font-size: 20px;	
+        text-align: center;
+    }
+    #download_part .row .left p {
+        margin-top: 8px;
+        width: auto;
+        font-family: Poppins;
+        font-size: 18px;
+        text-align: center;	
+    }
+    
+    #download_part .row .left .icon {
+        margin-top: 16px;
+        text-align: center;
+    }
+    
+    #download_part .row .col-lg-6:first-child {
+        order: 2;
+    }
+    #download_part .row .col-lg-6:last-child {
+        order: 1;
+    }
+    
+    #download_part .row .right img {
+        width: 270px;
+        margin: 0 auto;
+    }
+    #download_part .row .left {
+        padding: 0;
+    }
+    
+    
+    /* ============================= download part end===================================== */
+    /* ============================= contact part start==================================== */
+    #contact_part .container .text {
+       padding: 0 ;
+       margin: 0 auto;
+    }
+    
+    #contact_part {
+        padding: 50px 0;
+        
+    }
+    
+    #contact_part .container .text h2 {	
+        width: auto;			
+        font-size: 19px;	
+        line-height: 31px;
+        
+    }
+    
+    #contact_part .container .text p {
+        margin-top: 10px;	
+        font-size: 16px;	
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    
+    #contact_part .container .text {
+        text-align: center;
+    }
+    #contact_part .container .text input {
+        margin: 0 auto;
+        width: auto;
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+    #contact_part .container .text button {	
+        font-size: 20px;	
+        padding: 6px 22px 6px 22px;	
+    }
+    
+    #contact_part .container .text .button {
+        margin: 10px;
+    }
+    
+    /* ============================= contact part end==================================== */
+    /* ============================= footer part start=================================== */
+    footer .container {
+        padding: 66px 0 20px;
+    }
+    footer .container img {
+        margin: 0 auto;
+    }
+    
+    footer .container .row p {
+        margin: 18px 0;
+        width: auto;	
+        font-size: 20px;
+        line-height: 25px;	
+        text-align: center;
+    }
+    footer .container .row .icon {
+        margin-top: 8px;
+        text-align: center;
+    }
+    footer .container .row .right {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 40px;
+    }
+    footer .container .row .right ul li a {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+     
+    /* ============================= footer part end===================================== */
+     
+    }
+/* ====================================================================================== */
+/* ====================================================================================== */
+/* ====================================================================================== */
+/* ====================================================================================== */
+/* ====================================================================================== */
+/* ====================================================================================== */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* ============================= navbar part srat  ===================================== */ 
+    .fa-solid.fa-bars {
+        color: black;
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar .navbar-nav {
+        column-gap: 65px;
+        text-align: center;
+        background: rgb(178, 255, 111);
+        border-radius: 18px;
+    }
+    .navbar .navbar-nav{
+        padding: 20px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 18px;	
+    }
+    .navbar .sign_button button {
+        padding: 6px 14px 6px;
+        margin-left: 0;	
+        font-size: 14px;
+    }
+    
+    /* ============================= navbar part end  ===================================== */
+    /* ============================= banner part start  =================================== */
+    #banner_part .row .image img {
+        width: 100%;
+        border-radius: 20px;
+        margin-top: 16px;
+    }
+    /* ============================= banner part end  ===================================== */
+    /* ============================= MH_part part start===================================== */
+    #MH_part {
+        margin-top: 20px;
+        background: rgba(235, 217, 107, 1);
+        padding: 50px 100px ;
+    }
+    
+    #MH_part .row .image img {
+        margin-top: 10px;
+    }
+    #MH_part .image.four {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    
+    
+    /* ============================= MH_part part end===================================== */
+    /* ============================= NEW ARRIVALS part start============================== */
+    #new_arrivals .container {
+        padding-top: 0px;
+    }
+    #new_arrivals .container h1 {	
+        font-size: 28px;	
+        text-align: center;
+    }
+    #new_arrivals img {
+        width: 100%;
+        height: 400px;
+    }
+    #new_arrivals .container .main_slider {
+        margin-top: 30px;
+    }
+    
+    #new_arrivals .container .main_slider .prevArrow {
+        background: rgb(50, 255, 252);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 41%;
+        left: 12px;
+        transform: translate(-50%,-50%);
+        font-size: 22px;
+        z-index: 3;
+    }
+    
+    #new_arrivals .container .main_slider .nextArrow {
+        background: rgb(50, 255, 252);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 41%;
+        right: -9px;
+        transform: translateY(-50%);
+        font-size: 22px;
+    }
+    #new_arrivals .text h2 {	
+        font-size: 20px;
+        text-align: center;
+    }
+    #new_arrivals .text p {
+        margin-top: -18px;
+        font-size: 16px;
+        text-align: center;
+    
+    }
+    
+    .arrivals_banner {
+        margin-top: 60px;
+    }
+    
+    
+    /* ============================= NEW ARRIVALS part end=============================== */
+    /* ============================= Young’s part start=================================== */
+    #youngs_part {
+        padding-top: 80px;
+    }
+    
+    #youngs_part .container h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #youngs_part .container .main_slide {
+        margin-top: 20px;
+    }
+    #youngs_part .container .main_slide .prevArrow {
+        background: rgb(41, 104, 103);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 35%;
+        left: 12px;
+        transform: translate(-50%,-50%);
+        font-size: 22px;
+        z-index: 3;
+    }
+    #youngs_part .container .main_slide .nextArrow {
+        background: rgb(41, 104, 103);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 35%;
+        right: -9px;
+        transform: translateY(-50%);
+        font-size: 22px;
+        z-index: 3;
+    }
+    
+    #youngs_part .text p {
+        margin-top: -20px;
+        font-size: 18px;
+        text-align: center;	
+    }
+    
+    /* ============================= Young’s part end======================================== */
+    /* ============================= download part start===================================== */
+    #download_part {
+        padding-top: 64px;
+    }
+    
+    #download_part .row .left h2 {
+        width: auto;
+        font-size: 26px;
+        text-align: center;
+    }
+    #download_part .row .left p {
+        margin-top: 8px;
+        width: auto;
+        font-family: Poppins;
+        font-size: 23px;
+        text-align: center;	
+    }
+    
+    #download_part .row .left .icon {
+        margin-top: 16px;
+        text-align: center;
+    }
+    
+    #download_part .row .col-lg-6:first-child {
+        order: 2;
+    }
+    #download_part .row .col-lg-6:last-child {
+        order: 1;
+    }
+    
+    #download_part .row .right img {
+        width: 270px;
+        margin: 0 auto;
+    }
+    #download_part .row .left {
+        padding: 0;
+    }
+    #download_part .row .left .icon img {
+        margin-bottom: 90px;
+    }
+    
+    /* ============================= download part end===================================== */
+    /* ============================= contact part start==================================== */
+    #contact_part .container .text {
+       padding: 0 ;
+       margin: 0 auto;
+    }
+    
+    #contact_part {
+        padding: 50px 0;
+        
+    }
+    
+    #contact_part .container .text h2 {
+        width: auto;
+        font-size: 30px;
+        line-height: 31px;
+    }
+    
+    #contact_part .container .text p {
+        margin-top: 10px;	
+        font-size: 20px;	
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    
+    #contact_part .container .text {
+        text-align: center;
+    }
+    #contact_part .container .text input {
+        margin: 0 auto;
+        width: auto;
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+    #contact_part .container .text button {	
+        font-size: 20px;	
+        padding: 6px 22px 6px 22px;	
+    }
+    
+    #contact_part .container .text .button {
+        margin: 10px;
+    }
+    
+    /* ============================= contact part end==================================== */
+    /* ============================= footer part start=================================== */
+    footer .container {
+        padding: 66px 0 30px;
+    }
+    footer .container img {
+        margin: 0 auto;
+    }
+    
+    footer .container .row p {
+        margin: 18px 0;
+        width: auto;	
+        font-size: 28px;
+        line-height: 25px;	
+        text-align: center;
+    }
+    footer .container .row .icon {
+        margin-top: 8px;
+        text-align: center;
+    }
+    footer .container .row .right {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        row-gap: 34px;
+        padding: 0 20px;
+    }
+    footer .container .row .right ul li a {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+     
+    footer .container .row .right ul h3 {
+        color: #D9D9D9;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0.48px;
+    }
+    /* ============================= footer part end===================================== */
+     
+    }

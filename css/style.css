@@ -1,0 +1,449 @@
+/* ================================= common css start========================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ img{
+    display:block;
+ }
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.container{
+    max-width: 1720px;
+}
+/* ================================= common css end=========================================== */
+
+
+/* ============================= navbar part srat  ===================================== */
+.navbar{
+  position: absolute;
+  width: 100%;
+ }
+ .navbar .navbar-nav{
+    align-items: center;
+ }
+ .navbar .navbar-nav .nav-item .nav-link{
+    padding: 0;
+    column-gap: 65px;
+    color: #242323;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.22px;
+
+ }
+ .navbar .navbar-nav{
+    column-gap: 65px;
+  
+ }
+ .navbar .sign_button button{
+    padding: 13px 22px 17px;
+    margin-left: 54px;
+    background: rgba(0, 0, 0, 1);
+    color: #FEFEFE;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    border-radius: 7px;
+   
+ }
+
+/* ============================= navbar part end  ===================================== */
+
+/* ============================= banner part start  ===================================== */
+#banner_part{
+    padding-top: 90px;
+}
+
+#banner_part .row .image img{
+    /* width: 100%; */
+    border-radius: 59px;
+}
+
+
+/* ============================= banner part end  ===================================== */
+/* ============================= MH_part part start===================================== */
+#MH_part{
+    margin-top: 63px;
+    background:rgba(235, 217, 107, 1);
+    padding: 54px 0 61px;
+}
+#MH_part .row img  {
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+/* ============================= MH_part part end===================================== */
+/* ============================= NEW ARRIVALS part start=============================== */
+#new_arrivals{
+    padding-top: 69px;
+    
+}
+#new_arrivals .container{
+    max-width: 1744px;
+}
+#new_arrivals .container h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 2.88px;
+}
+#new_arrivals .container {
+     padding-top: 118px;
+}
+#new_arrivals .container .main_slider{
+    margin-top: 101px;
+}
+#new_arrivals .container .main_slider .slider {
+    margin-left: 12px;
+}
+
+#new_arrivals .container .main_slider{
+    position: relative;
+}
+#new_arrivals .container .main_slider .prevArrow {
+    background: rgb(50, 255, 252);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform:translate(-50%,-50%); 
+    font-size: 20px;
+    z-index: 3;
+    
+}
+#new_arrivals .container .main_slider .nextArrow {
+    background: rgb(50, 255, 252);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform:translate(-50%,-50%);    
+    font-size: 20px;
+    
+}
+
+#new_arrivals img{
+   width: 100%;
+   height: 704px;
+   border-radius: 20px;
+}
+#new_arrivals .text h2{
+    color: #191919;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; 
+    letter-spacing: -1.28px;
+}
+#new_arrivals .text p{
+    color: #7F7F7F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; 
+    letter-spacing: -0.96px;
+}
+.arrivals_banner{
+    margin-top: 173px;  
+}
+.arrivals_banner img{
+    width: 100%;
+}
+
+
+/* ============================= NEW ARRIVALS part end===================================== */
+/* ============================= Young’s part start======================================== */
+#youngs_part{
+    padding-top: 190px;
+}
+#youngs_part .container h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px; 
+    letter-spacing: 2.88px;
+}
+#youngs_part .text h2{
+    color: #191919;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; 
+    letter-spacing: -1.28px;
+}
+#youngs_part .text p{
+    color: #7F7F7F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; 
+    letter-spacing: -0.96px;
+}
+#youngs_part .container .main_slide{
+    margin-top: 104px;
+}
+#youngs_part .container .main_slide img{
+    width: 100%;
+}
+#youngs_part .container .main_slide  .slide {
+    margin-left: 12px;
+}
+
+#youngs_part .container .main_slide{
+    position: relative;
+}
+#youngs_part .container .main_slide .prevArrow {
+    background: rgb(41, 104, 103);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform:translate(-50%,-50%); 
+    font-size: 20px;
+    z-index: 3;
+    
+}
+#youngs_part .container .main_slide .nextArrow {
+    background: rgb(50, 255, 252);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform:translate(-50%,-50%);    
+    font-size: 20px;
+    
+}
+
+
+    
+
+
+/* ============================= Young’s part end===================================== */
+/* ============================= download part start===================================== */
+#download_part{
+    padding-top:145px ;
+}
+#download_part .container{
+   max-width: 1538px;
+}
+#download_part .row .left{
+    padding: 188px 0 140px ;
+}
+
+#download_part .row .left h2{
+    width: 510px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 2.88px;
+}
+
+#download_part .row .left p{
+    margin-top: 41px;
+    width: 419px;
+    color: #7C7C7C;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; 
+    letter-spacing: -0.96px;
+}
+#download_part .row .left .icon{
+    margin-top: 65px; 
+}
+#download_part .row .left .icon img{
+    margin-left: 19px;
+}
+#download_part .row .left .icon img{
+    margin-left: 19px;
+}
+#download_part .row .right img{
+    text-align: center;
+}
+
+/* ============================= download part end===================================== */
+/* ============================= contact part start==================================== */
+#contact_part{
+    padding-top: 145px;
+    background: #E5C643;
+   
+}
+#contact_part .container .text{
+     padding: 141px 0 156px;
+     text-align: center;
+    
+}
+#contact_part .container .text h2{
+    margin: 0  auto;
+    width: 966px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px; 
+    letter-spacing: 1.65px;
+    
+}
+#contact_part .container .text p{
+    margin-top: 37px;
+    color: #FFFCF8;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.96px;
+    text-align: center;
+    margin-bottom: 49px;
+    
+}
+
+#contact_part .container .text input{
+    margin: 0 auto;
+    width: 574px;
+    color: #767676;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; 
+    letter-spacing: 0.72px;
+    padding: 27px 27px;
+    border-radius: 10px;
+    background: #FFF;
+    border: 0;   
+}
+#contact_part .container .text .button{
+    margin: 20px;
+    text-align: center;
+}
+#contact_part .container .text button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.99px;
+    text-transform: capitalize;
+    padding: 16px 35px 17px 38px;
+    border-radius: 8px;
+    background: #000;
+    
+}
+
+/* ============================= contact part end===================================== */
+/* ============================= footer part start===================================== */
+footer {
+    background: #000;
+}
+footer .container{ 
+    padding: 119px 0 149px;
+}
+footer .container .row p{
+    margin: 32px 0;
+    width: 415px;
+    color: #8E8E8E;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 0.48px;
+}
+footer .container .row .icon i{
+    margin-right: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: 6px 16px;
+    color:black;
+    background:#eed773;
+}
+
+footer .container .row .right{
+   display: flex;
+   justify-content: flex-end;
+   column-gap: 188px;
+  
+}
+footer .container .row .right ul h3{
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.48px;
+  
+}
+footer .container .row .right ul li a{
+    margin-top: 26px;
+    color: #8E8E8E;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 0.48px;
+    
+  
+}
+
+/* ============================= footer part end===================================== */
